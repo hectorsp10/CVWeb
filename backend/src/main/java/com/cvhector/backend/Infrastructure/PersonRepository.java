@@ -1,4 +1,4 @@
-package com.cvhector.backend.Repository;
+package com.cvhector.backend.Infrastructure;
 
 import com.cvhector.backend.Domain.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
