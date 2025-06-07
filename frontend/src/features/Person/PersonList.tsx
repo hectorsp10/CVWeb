@@ -10,7 +10,7 @@ export default function PersonList() {
 
   return (
     <div>
-      <h2 className="text-xl font-bold">Personas</h2>
+      <h2 className="">Personas</h2>
       <ul>
         {people.map((p: any) => (
           <li key={p.id}>{p.nombre} - {p.edad} años</li>

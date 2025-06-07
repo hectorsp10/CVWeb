@@ -1,0 +1,34 @@
+.nav {
+  background-color: rgba(31, 41, 55, 0.8); /* gris oscuro con opacidad del 80% */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky; /* opcional: navbar fija al hacer scroll */
+  top: 0;
+  backdrop-filter: blur(6px); /* opcional: efecto de desenfoque detrás */
+  z-index: 1000; /* asegúrate de que esté sobre otros elementos */
+}
+
+.nav-content {
+  display: flex;
+  justify-content: flex-end; /* alinea los elementos a la derecha */
+  align-items: center;
+}
+
+.nav-content ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-content li a {
+  text-decoration: none;
+  color: #f9fafb; /* color claro */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-content li a:hover {
+  color: #60a5fa; /* azul claro al hacer hover */
+}
