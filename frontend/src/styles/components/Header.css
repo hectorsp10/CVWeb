@@ -1,34 +1,39 @@
 .nav {
-  background-color: rgba(31, 41, 55, 0.8); /* gris oscuro con opacidad del 80% */
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: sticky; /* opcional: navbar fija al hacer scroll */
+  background-color: var(--color-background);
+  padding: 1.5rem 2rem;
+  position: sticky;
   top: 0;
-  backdrop-filter: blur(6px); /* opcional: efecto de desenfoque detrás */
-  z-index: 1000; /* asegúrate de que esté sobre otros elementos */
+  z-index: 1000;
 }
 
 .nav-content {
   display: flex;
-  justify-content: flex-end; /* alinea los elementos a la derecha */
+  justify-content: flex-end;
   align-items: center;
+  margin-left: 3%;
+  margin-right: 3%
 }
 
 .nav-content ul {
   list-style: none;
   display: flex;
   gap: 2rem;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-content li a {
+  display: inline-block;
   text-decoration: none;
-  color: #f9fafb; /* color claro */
+  color: var(--color-text-bright);
   font-weight: 500;
-  transition: color 0.3s ease;
+  transition: transform 0.2s ease;
+  will-change: transform;
 }
 
 .nav-content li a:hover {
-  color: #60a5fa; /* azul claro al hacer hover */
+  color: var(--color-primary);
+  transform: scale(1.1);
+}
+
+a{
+  font-size: 1.3rem;
 }
