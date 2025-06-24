@@ -1,0 +1,29 @@
+.tools-section {
+  background-color: var(--color-background-light);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #2b2727;
+}
+
+.category-title {
+  margin-top: 0px;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: var(--color-text-bright);
+}
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tool {
+  background-color: var(--color-text-bright);
+  color: var(--color-background);
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}

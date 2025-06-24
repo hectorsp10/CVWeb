@@ -1,0 +1,45 @@
+.secondary-button {
+    background-color: var(--color-text-bright);
+    border: 0;
+    border-radius: 200px;
+    align-items: center;
+    /* centra verticalmente */
+    justify-content: center;
+    /* centra horizontalmente */
+    display: inline-flex;
+    margin-top: 5rem;
+    width: auto;
+    height: auto;
+
+}
+
+.secondary-button-text {
+    color: var(--color-background);
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.arrow-circle {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-background);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+.arrow {
+    color: var(--color-text-bright);
+    font-size: 1.2rem;
+    font-weight: bold;
+}

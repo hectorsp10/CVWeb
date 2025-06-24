@@ -1,0 +1,39 @@
+.nav {
+  background-color: var(--color-background);
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%
+}
+
+.nav-content ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-content li a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-text-bright);
+  font-weight: 500;
+  transition: transform 0.2s ease;
+  will-change: transform;
+}
+
+.nav-content li a:hover {
+  color: var(--color-primary);
+  transform: scale(1.1);
+}
+
+a{
+  font-size: 1.3rem;
+}

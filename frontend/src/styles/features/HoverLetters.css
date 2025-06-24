@@ -1,0 +1,15 @@
+.hover-text {
+  display: inline-block;
+  font-size: 4rem;
+  cursor: default;
+  color: var(--color-text-bright);
+}
+
+.hover-letter {
+  display: inline-block;
+  transition: transform 0.05s ease;
+}
+
+.hover-letter:hover {
+  transform: scale(1.5);
+}
