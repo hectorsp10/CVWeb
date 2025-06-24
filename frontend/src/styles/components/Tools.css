@@ -1,0 +1,14 @@
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.tool-column {
+    flex: 0 0 30%;
+}
+
+@media (max-width: 768px){
+    .tool-column{
+        flex: 0 0 100%;
+    }
+}

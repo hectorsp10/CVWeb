@@ -7,8 +7,8 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 2rem; /* espacio entre columnas */
-    flex-wrap: wrap; /* se adapta en pantallas pequeñas */
+    gap: 2rem; 
+    flex-wrap: wrap; 
     position: relative;
 }
 

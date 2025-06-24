@@ -2,7 +2,7 @@
   --color-primary: #0eced1;
   --color-secondary: #e9d8a6;
   --color-background: #101011;
-  --color-background-light: #202024;
+  --color-background-light: #151516;
   --color-text-bright: #eafff8;
   --color-accent: #f48c06;
 }
@@ -10,6 +10,7 @@
 body {
     margin: 0px;
     background-color: var(--color-background);
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -21,19 +22,19 @@ body {
 
 .title-2{
     color: var(--color-text-bright);
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin: 0%;
 }
 
 .title-1{
     color: var(--color-text-bright);
-    font-size: 4rem;
+    font-size: 3.7rem;
     margin: 0%;
 }
 
 .text{
     color: var(--color-text-bright);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .dot{
@@ -43,4 +44,8 @@ body {
 
 strong{
     color: var(--color-primary);
+}
+
+.mb {
+    margin-bottom: 3rem;
 }
