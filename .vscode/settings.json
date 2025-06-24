@@ -1,6 +1,12 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic",
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false
+  "java.compile.nullAnalysis.mode": "automatic",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+
+    
+    
 }
