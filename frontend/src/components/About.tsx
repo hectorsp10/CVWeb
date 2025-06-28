@@ -14,7 +14,7 @@ export default function About() {
                 have helped me find my passion, which is to build meaningful and robust software,
                 able to affect people's lives for the better.
             </p>
-            <p className="text">
+            <p className="text mb">
                 Would you like to know more?
             </p>
             <SecondaryButton text="About me"></SecondaryButton>

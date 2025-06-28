@@ -8,12 +8,15 @@ import Footer from '../components/reusable/Footer.tsx'
 export default function Home() {
     return (
         <>
-            <Header/>
-            <Hero/>
-            <About/>
-            <Tools/>
-            <Skills/>
+            <div className="up">
+                <Header/>
+                <Hero/>
+                <About/>
+                <Tools/>
+                <Skills/>
+            </div>
             <Footer/>
+            
         </>
     );
 }
