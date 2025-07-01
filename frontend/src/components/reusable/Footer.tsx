@@ -21,7 +21,7 @@ export default function Footer() {
         <div className='footer-contact'>
           <a className='text-lg'>Seen enough?</a>
           <div className='contact'>
-            <SecondaryButton text='Contact'></SecondaryButton>
+            <SecondaryButton route='/' text='Contact'></SecondaryButton>
           </div>
         </div>
       </div>

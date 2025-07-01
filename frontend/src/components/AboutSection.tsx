@@ -1,7 +1,7 @@
-import SecondaryButton from "../components/reusable/SecondaryButton";
+import SecondaryButton from "./reusable/SecondaryButton";
 
 
-export default function About() {
+export default function AboutSection() {
     return (
         <section className="container">
             <h1 className="title-1">About<span className='dot'>.</span></h1>
@@ -17,7 +17,7 @@ export default function About() {
             <p className="text mb">
                 Would you like to know more?
             </p>
-            <SecondaryButton text="About me"></SecondaryButton>
+            <SecondaryButton route="/about" text="About me"></SecondaryButton>
         </section>
     )
 }
