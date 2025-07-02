@@ -4,11 +4,6 @@
   position: relative;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
 .button-list {
   padding-top: 5rem;
   display: flex;
