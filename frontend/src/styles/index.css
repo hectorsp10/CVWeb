@@ -14,11 +14,14 @@ body {
     z-index: 1000;
 }
 
-
+.row {
+  display: flex;
+  flex-direction: row;
+}
 
 .container {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 10%;
     margin-top: 4%;
     z-index: 1;
@@ -46,6 +49,10 @@ body {
     font-size: 2rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .dot{
     color: var(--color-primary);
     font-size: 7rem;
@@ -55,6 +62,9 @@ strong{
     color: var(--color-primary);
 }
 
+.mt {
+    margin-top: 3rem;
+}
 .mb {
     margin-bottom: 3rem;
 }

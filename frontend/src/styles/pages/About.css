@@ -1,0 +1,29 @@
+.about-body {
+  margin: 5rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.intro{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.question{
+  color: var(--color-primary);
+  font-size: 6rem;
+  margin-left: 10px;
+}
+
+.about-text{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media (max-width: 768px){
+  .about-text{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}

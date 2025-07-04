@@ -4,7 +4,7 @@ import SecondaryButton from '../reusable/SecondaryButton'
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className='row'>
+      <div className='row container'>
         <div className="button-list">
           <a className='button-list-title'>About</a>
           <button className="footer-button">Home</button>
@@ -21,7 +21,7 @@ export default function Footer() {
         <div className='footer-contact'>
           <a className='text-lg'>Seen enough?</a>
           <div className='contact'>
-            <SecondaryButton text='Contact'></SecondaryButton>
+            <SecondaryButton route='/' text='Contact'></SecondaryButton>
           </div>
         </div>
       </div>
