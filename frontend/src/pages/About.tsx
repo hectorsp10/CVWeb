@@ -1,4 +1,6 @@
 import Header from '../components/reusable/Header.tsx'
+import Footer from '../components/reusable/Footer.tsx'
+
 import '../styles/pages/About.css'
 import React, { useEffect, useState } from 'react';
 
@@ -16,6 +18,12 @@ function calculateExperience(from: Date, to: Date) {
   if (months < 0) {
     years -= 1;
     months += 12;
+  }
+
+  if (years == 0) {
+    years += 1;
+    months = 0;
+    days = 0;
   }
 
   return { years, months, days };
@@ -71,12 +79,23 @@ export default function About() {
             <div className='about-section-content'>
               <h1 className='title-1'>Experience<a className='dot'>.</a></h1>
               <p className='text'>
-                {experience.years} {experience.months}
+                I have been working as a backend developer for {experience.years} year{experience.years !== 1 && 's'}.
+                But before finding my passion, I worked as a waiter, at a supermarket during night shift, and at a warehouse.
+              </p>
+              <p className='text'>
+                My experience working as a developer has helped me learn strong bases:
+              </p>
+              <p className='text'>
+                - Understanding the importance and how to implement good <strong>architectures</strong>.
+              </p>
+              <p className='text'>
+                - Unit and integration <strong>testing</strong>.
               </p>
             </div>
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }
